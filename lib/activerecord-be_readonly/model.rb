@@ -19,7 +19,7 @@ module BeReadonly
         super
       end
 
-      def delete_all(conditions = nil)
+      def delete_all
         raise ActiveRecord::ReadOnlyRecord if BeReadonly.enabled
         super
       end
