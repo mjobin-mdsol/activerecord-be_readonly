@@ -12,5 +12,5 @@ Gem::Specification.new do |s|
   s.description = %q{Makes read-only models easier to implement in ActiveRecord 3.x/4.x/5.x.}
   s.files = Dir['lib/**/*'] + ['Rakefile', 'README.md']
   s.license = 'MIT'
-  s.add_dependency 'activerecord', '>= 3.0', '< 7'
+  s.add_dependency 'activerecord', '>= 6.0', '< 8'
 end
